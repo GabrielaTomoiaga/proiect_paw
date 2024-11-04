@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Magazin Online Bijuterii</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="header">
+    <h1 class="dashboard-title">Magazin Online Bijuterii</h1>
+    <p class="description">Descoperă bijuterii unice și elegante pentru orice ocazie.</p>
+    <div class="nav">
+        <ul>
+
+            <li><a href="/bijuterii">Bijuterii</a></li>
+            <li><a href="#">Coșul meu</a></li>
+            <li><a href="#">Contul meu</a></li>
+            <li><a href="#">Logare</a></li>
+
+            <li>
+                <input type="text" class="search-box" placeholder="Caută bijuterii..." onkeypress="if(event.key === 'Enter') {  }">
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="main-content">
+    <h2>Cele mai vândute bijuterii</h2>
+    <div class="featured-products">
+        <div class="product">
+            <img src="/images/img1.jpg" alt="Bijuterie 1" class="product-image">
+            <h3>Set de bijuterii smarald</h3>
+            <p class="price">400 RON</p>
+            <button class="add-to-cart">Adaugă în coș</button>
+        </div>
+        <div class="product">
+            <img src="/images/img2.jpg" alt="Bijuterie 2" class="product-image">
+            <h3>Inel</h3>
+            <p class="price">150 RON</p>
+            <button class="add-to-cart">Adaugă în coș</button>
+        </div>
+
+    </div>
+
+
+    </div>
+</div>
+</body>
+</html>
